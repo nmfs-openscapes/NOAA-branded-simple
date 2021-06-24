@@ -1,5 +1,5 @@
 ---
-title: "index"
+title: ""
 output: html_document
 ---
 
@@ -7,25 +7,21 @@ output: html_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+# Level 1
 
- <div class ="boxcontainer">
- <div class = "box">
- <a class = "shortTitle" href= https://nmfs-fish-tools.github.io/2BOX target= "_blank"> 2BOX </a>
- <div class = "longTitle">Dual Zone Virtual Population Analysis</div>
- <div class = "modelType">Stock Assessment Model</div>
- <div class = "modelType">Virtual Population Analysis</div>
- <div class = "release"><img alt="GitHub release (latest by date)" src= "https://img.shields.io/github/v/release/nmfs-fish-tools/2BOX?color=%230093D0&include_prereleases"></div>
-</div>
-<div class = "box">Hellow</div>
-</div>
+The file `_site.yml` specifies the look and nav bar structure. A footer can be added to that file in which case the same footer is added to each page. If you don't want that, then you can delete the `footer.html` bit in `_site.yml` and instead add this code at the end of each Rmd file.
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+    `​``{r child="footerrmd.Rmd"}
+    ```
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
+## Level 2
 
-```{r cars}
-summary(cars)
+Some information and a link. <http://rmarkdown.rstudio.com>.
+
+Give installation instructions:
+
+```
+remotes::install_github("username/repo")
 ```
 
 ## Including Plots
@@ -35,8 +31,6 @@ You can also embed plots, for example:
 ```{r pressure, echo=FALSE}
 plot(pressure)
 ```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
 
 ```{r child="disclaimer.Rmd"}
 ```
