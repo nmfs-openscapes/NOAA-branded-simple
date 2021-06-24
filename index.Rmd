@@ -9,7 +9,16 @@ knitr::opts_chunk$set(echo = TRUE)
 
 ## R Markdown
 
-<div class="repositories"></div>
+ <div class ="boxcontainer">
+ <div class = "box">
+ <a class = "shortTitle" href= https://nmfs-fish-tools.github.io/2BOX target= "_blank"> 2BOX </a>
+ <div class = "longTitle">Dual Zone Virtual Population Analysis</div>
+ <div class = "modelType">Stock Assessment Model</div>
+ <div class = "modelType">Virtual Population Analysis</div>
+ <div class = "release"><img alt="GitHub release (latest by date)" src= "https://img.shields.io/github/v/release/nmfs-fish-tools/2BOX?color=%230093D0&include_prereleases"></div>
+</div>
+<div class = "box">Hellow</div>
+</div>
 
 This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
