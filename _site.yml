@@ -10,7 +10,7 @@ output:
   html_document:
     highlight: textmate
     include:
-      after_body: footer_raw.html
+      after_body: footer.html
     css:
       - "static/extra.css"
       - "static/fit-page.css"
