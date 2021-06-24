@@ -1,4 +1,5 @@
-name: "my-website"
+name: "NOAA Branded website"
+output_dir: '.'
 navbar:
   title: "My Website"
   left:
