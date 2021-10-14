@@ -2,4 +2,4 @@
 
 * License
 * Disclaimers
-* logs
+* NMFS palette
