@@ -4,7 +4,7 @@ on:
 name: update-github-pages
 
 jobs:
-  update-distill-site:
+  update-website:
     runs-on: macOS-latest
     env:
       GITHUB_PAT: ${{ secrets.GITHUB_TOKEN }}

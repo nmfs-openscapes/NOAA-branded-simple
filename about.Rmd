@@ -11,3 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 You can add more tabs at needed. The NOAA footer is added automatically.
 
+# nmfs-palette
+
+Read the [nmfs-palette documentation](https://nmfs-fish-tools.github.io/nmfspalette/) to learn how to use the palette to give your {ggplot2} plots the NMFS color palette.
+
